@@ -64,3 +64,11 @@ pip install -r requirements.txt
 augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--original]  
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
 
+# Sources
+Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. RRGparbank: A Parallel Role and Reference Grammar Treebank. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 4833–4841, Marseille, France. European Language Resources Association.  
+
+Kilian Evang, Tatiana Bladier, Laura Kallmeyer, and Simon Petitjean. 2021. Bootstrapping Role and Reference Grammar Treebanks via Universal Dependencies. In Proceedings of the Fifth Workshop on Universal Dependencies (UDW, SyntaxFest 2021), pages 30–48, Sofia, Bulgaria. Association for Computational Linguistics.  
+
+Tatiana Bladier, Jakub Waszczuk, and Laura Kallmeyer. 2020. Statistical Parsing of Tree Wrapping Grammars. In Proceedings of the 28th International Conference on Computational Linguistics, pages 6759–6766, Barcelona, Spain (Online). International Committee on Computational Linguistics.  
+
+Kallmeyer, L., Osswald, R., Van Valin, R.D. 2013. Tree Wrapping for Role and Reference Grammar. In: Morrill, G., Nederhof, MJ. (eds) Formal Grammar. FG FG 2013 2012. Lecture Notes in Computer Science, vol 8036. Springer, Berlin, Heidelberg.  
