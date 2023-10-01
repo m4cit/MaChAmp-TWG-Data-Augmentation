@@ -13,27 +13,26 @@ pip install -r requirements.txt
 # Options
 **-h, --help**  
 
-**--unimorph0:**  UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original  
+**--unimorph0:**  _UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original._  
 
-**--unimorph1:**  UniMorph Accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original.  
+**--unimorph1:**  _UniMorph Accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original._  
 
-**--internal:**  For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original.  
+**--internal:**  _For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original._  
 
-**--supertag:**  For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original.  
+**--supertag:**  _For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original._  
+**--original:**  _Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag._  
 
-**--original:**  Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag.  
+**-i, --RRGinput:**  _(OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu"._  
 
-**-i, --RRGinput:**  (OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu".  
+**-o, --RRGoutput:**  _(OPTIONAL) Filtered RRG file output directory. Default directory: "rrgparbank/conllu"._  
 
-**-o, --RRGoutput:**  (OPTIONAL) Filtered RRG file output directory. Default directory: "rrgparbank/conllu".  
+**-t, --tag:**  _Word tags._  
 
-**-t, --tag:**  Word tags.  
+**-ti, --trainInput:**  _(OPTIONAL) train.supertags file input. Default file: "experiments/rrgparbank-en/base/train.supertags"._  
 
-**-ti, --trainInput:**  (OPTIONAL) train.supertags file input. Default file: "experiments/rrgparbank-en/base/train.supertags".  
+**-to, --trainOutput:**  _(OPTIONAL) train.supertags file output directory. If the directory is not specified, the default directory is used and filename changes to "new_train.supertags"._  
 
-**-to, --trainOutput:**  (OPTIONAL) train.supertags file output directory. If the directory is not specified, the default directory is used and filename changes to "new_train.supertags".  
-
-**-s, --extensionSize:**  Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1).  
+**-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
 
 # Usage
