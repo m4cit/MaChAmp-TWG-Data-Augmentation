@@ -36,29 +36,29 @@ pip install -r requirements.txt
 **-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
 # Available tags for replacement task
-nS:  Noun Singular  
-nP:  Noun Plural  
+**nS:**  _Noun Singular_  
+**nP:**  _Noun Plural_  
 
-aPoss:  Adjective Possessive  
-aCmpr:  Adjective Comparative  
-aSup:  Adjective Superlative  
+**aPoss:**  _Adjective Possessive_  
+**aCmpr:**  _Adjective Comparative_  
+**aSup:**  _Adjective Superlative_  
 
-vPst:  Verb Past Tense  
-vPresPart:  Verb Present Tense, Participle Form  
-vPstPart:  Verb Past Tense, Participle Form  
+**vPst:**  _Verb Past Tense_  
+**vPresPart:**  _Verb Present Tense, Participle Form_  
+**vPstPart:**  _Verb Past Tense, Participle Form_  
 
-adv (for internal dataswap only):  Adverb  
-advInt (for internal dataswap only):  Adverb, Pronominal type: Interrogative  
-advSup (for internal dataswap only):  Adverb Superlative  
-advCmpr (for internal dataswap only):  Adverb Comparative  
+**adv (for internal dataswap only):**  _Adverb_  
+**advInt (for internal dataswap only):**  _Adverb, Pronominal type: Interrogative_  
+**advSup (for internal dataswap only):**  _Adverb Superlative_  
+**advCmpr (for internal dataswap only):**  _Adverb Comparative_  
 
-noun:  All nouns  
+**noun:**  _All nouns_  
 
-adj:  All adjectives  
+**adj:**  _All adjectives_  
 
-verb:  All verbs  
+**verb:**  _All verbs_  
 
-all:  All available tags  
+**all:**  _All available tags_
 
 # Usage
 augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--original]  
