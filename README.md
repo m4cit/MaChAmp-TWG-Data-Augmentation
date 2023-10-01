@@ -36,20 +36,20 @@ pip install -r requirements.txt
 **-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
 # Available tags for replacement task
-nS:  Noun Singular
+nS:  Noun Singular  
 nP:  Noun Plural  
 
-aPoss:  Adjective Possessive
-aCmpr:  Adjective Comparative
+aPoss:  Adjective Possessive  
+aCmpr:  Adjective Comparative  
 aSup:  Adjective Superlative  
 
-vPst:  Verb Past Tense
-vPresPart:  Verb Present Tense, Participle Form
+vPst:  Verb Past Tense  
+vPresPart:  Verb Present Tense, Participle Form  
 vPstPart:  Verb Past Tense, Participle Form  
 
-adv (for internal dataswap only):  Adverb
-advInt (for internal dataswap only):  Adverb, Pronominal type: Interrogative
-advSup (for internal dataswap only):  Adverb Superlative
+adv (for internal dataswap only):  Adverb  
+advInt (for internal dataswap only):  Adverb, Pronominal type: Interrogative  
+advSup (for internal dataswap only):  Adverb Superlative  
 advCmpr (for internal dataswap only):  Adverb Comparative  
 
 noun:  All nouns  
