@@ -6,10 +6,9 @@ Data Augmentation for the parser MaChAmp-TWG
 - modules from the requirements.txt file
 
 # Installation
-```
-pip install -r requirements.txt
-```
-Place all files and folders into the main folder of MaChAmp-TWG.
+
+1. ```pip install -r requirements.txt```
+2. Place all files and folders into the main folder of MaChAmp-TWG.
 
 # Options
 **-h, --help**  
