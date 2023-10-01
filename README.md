@@ -8,7 +8,7 @@ Data Augmentation for the parser MaChAmp-TWG
 # Installation
 
 1. ```pip install -r requirements.txt```
-2. Place all files and folders into the main folder of MaChAmp-TWG.
+2. Place all files and folders into the main directory of MaChAmp-TWG.
 
 # Options
 **-h, --help**  
