@@ -6,4 +6,4 @@ Data Augmentation for the parser MaChAmp-TWG
 - modules from the requirements.txt file
 
 # Installation
-<pip install -r requirements.txt>
+`pip install -r requirements.txt`
