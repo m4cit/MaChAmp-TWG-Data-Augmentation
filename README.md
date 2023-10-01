@@ -20,6 +20,7 @@ pip install -r requirements.txt
 **--internal:**  _For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original._  
 
 **--supertag:**  _For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original._  
+
 **--original:**  _Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag._  
 
 **-i, --RRGinput:**  _(OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu"._  
