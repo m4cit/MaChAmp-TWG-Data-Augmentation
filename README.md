@@ -7,8 +7,10 @@ Data Augmentation for the parser MaChAmp-TWG
 
 # Installation
 
-1. ```pip install -r requirements.txt```
-2. Place all files and folders into the main directory of MaChAmp-TWG.
+1. ```
+   pip install -r requirements.txt
+   ```
+3. Place all files and folders into the main directory of MaChAmp-TWG.
 
 # Options
 **-h, --help**  
@@ -65,9 +67,9 @@ augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--origina
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
 
 **Example:**  
-``
+```
 python augment.py --unimorph0 -t all -s 2
-``
+```
 
 # Sources
 Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. RRGparbank: A Parallel Role and Reference Grammar Treebank. In _Proceedings of the Thirteenth Language Resources and Evaluation Conference_, pages 4833–4841, Marseille, France. European Language Resources Association.  
