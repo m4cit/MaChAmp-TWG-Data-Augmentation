@@ -35,7 +35,7 @@ Data Augmentation for the parser MaChAmp-TWG
 
 **-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
-# Available tags for replacement task
+# Available tags for replacement task (not for --supertag)
 **nS:**  _Noun Singular_  
 **nP:**  _Noun Plural_  
 
@@ -63,6 +63,11 @@ Data Augmentation for the parser MaChAmp-TWG
 # Usage
 augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--original]  
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
+
+**Example:**  
+``
+python augment.py --unimorph0 -t all -s 2
+``
 
 # Sources
 Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. RRGparbank: A Parallel Role and Reference Grammar Treebank. In _Proceedings of the Thirteenth Language Resources and Evaluation Conference_, pages 4833–4841, Marseille, France. European Language Resources Association.  
