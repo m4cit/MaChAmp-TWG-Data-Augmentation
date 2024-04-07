@@ -1,5 +1,5 @@
 # MaChAmp-TWG_Data-Augmentation
-Data Augmentation scripts for the parser MaChAmp-TWG
+Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thesis.
 
 # Requirements
 - Python 3.6 or newer
