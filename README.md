@@ -55,20 +55,22 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **advCmpr (for internal dataswap only):**  _Adverb Comparative_  
 
 **noun:**  _All nouns_  
-
 **adj:**  _All adjectives_  
-
 **verb:**  _All verbs_  
-
 **all:**  _All available tags_
 
 # Usage
 augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--original]  
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
 
-**Example:**  
+**Example 1:**  
 ```
 python augment.py --unimorph0 -t all -s 2
+```
+
+**Example 2:**  
+```
+python augment.py --supertag -s 10
 ```
 
 # Sources
