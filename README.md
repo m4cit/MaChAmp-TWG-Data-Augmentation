@@ -37,7 +37,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 **-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
-## Available tags for replacement task (not for --supertag)
+### Available tags for replacement task (not for --supertag)
 **nS:**  _Noun Singular_  
 **nP:**  _Noun Plural_  
 
