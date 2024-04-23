@@ -111,9 +111,9 @@ python augment.py --unimorph0 -t all -s 2
 \
 \
 **Example 2:**
-```
-python augment.py --supertag --extensionSize 10
-```
+>```
+>python augment.py --supertag -->extensionSize 10
+>```
 or
 ```
 python augment.py --supertag -s 10
