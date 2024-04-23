@@ -84,10 +84,10 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **vPresPart:**  Verb Present Tense, Participle Form\
 **vPstPart:**  Verb Past Tense, Participle Form
 
-**adv (for internal dataswap only):**  Adverb\
-**advInt (for internal dataswap only):**  Adverb, Pronominal type: Interrogative\
-**advSup (for internal dataswap only):**  Adverb Superlative\
-**advCmpr (for internal dataswap only):**  Adverb Comparative
+**adv (for --internal only):**  Adverb\
+**advInt (for --internal only):**  Adverb, Pronominal type: Interrogative\
+**advSup (for --internal only):**  Adverb Superlative\
+**advCmpr (for --internal only):**  Adverb Comparative
 
 **noun:**  All nouns\
 **adj:**  All adjectives\
