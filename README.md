@@ -74,6 +74,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 ### Available tags for replacement task (not for --supertag)
 >**nS:**  Noun Singular
+>
 >**nP:**  Noun Plural
 >
 >**aPoss:**  Adjective Possessive
