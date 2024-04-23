@@ -34,24 +34,25 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
    ```
 3. Place all files and folders into the main directory of MaChAmp-TWG.
 
-
-## Options
-**-h, --help**  
-
+## Input Parameters
+### Word Replacement Options
 **--unimorph0:**
->UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original.
+>UniMorph inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original.
 
 **--unimorph1:**
->UniMorph Accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original.
+>UniMorph accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original.
 
 **--internal:**
->For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original.
+>Internal word replacements. In place of --unimorph0, unimorph1, --supertag, or --original.
 
 **--supertag:**
->For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original.
+>Internal supertag word replacements. In place of --unimorph0, unimorph1, --internal, or --original.
 
 **--original:**
->Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag. 
+>Augmentation with unchanged original sentences. In place of --unimorph0, unimorph1, --internal, or --supertag. 
+
+### General Options
+**-h, --help**
 
 **-i, --RRGinput:**
 >(OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu".
