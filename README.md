@@ -1,18 +1,18 @@
 # MaChAmp-TWG_Data-Augmentation
 Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thesis.
 
-# Requirements
+## Requirements
 - Python 3.6 or newer
 - modules from the requirements.txt file
 
-# Installation
+## Installation
 
 1. ```
    pip install -r requirements.txt
    ```
 3. Place all files and folders into the main directory of MaChAmp-TWG.
 
-# Options
+## Options
 **-h, --help**  
 
 **--unimorph0:**  _UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original._  
@@ -37,7 +37,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 **-s, --extensionSize:**  _Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1)._  
 
-# Available tags for replacement task (not for --supertag)
+## Available tags for replacement task (not for --supertag)
 **nS:**  _Noun Singular_  
 **nP:**  _Noun Plural_  
 
@@ -59,7 +59,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **verb:**  _All verbs_  
 **all:**  _All available tags_
 
-# Usage
+## Usage
 augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--original]  
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
 
@@ -73,7 +73,7 @@ python augment.py --unimorph0 -t all -s 2
 python augment.py --supertag -s 10
 ```
 
-# Sources
+## Sources
 Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. RRGparbank: A Parallel Role and Reference Grammar Treebank. In _Proceedings of the Thirteenth Language Resources and Evaluation Conference_, pages 4833–4841, Marseille, France. European Language Resources Association.  
 
 Kilian Evang, Tatiana Bladier, Laura Kallmeyer, and Simon Petitjean. 2021. Bootstrapping Role and Reference Grammar Treebanks via Universal Dependencies. In _Proceedings of the Fifth Workshop on Universal Dependencies (UDW, SyntaxFest 2021)_, pages 30–48, Sofia, Bulgaria. Association for Computational Linguistics.  
