@@ -6,6 +6,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **1_unimorph_to_conllu.py**:
 >Translates the original UniMorph file into the language / format of the CoNLLU file.
 
+
 **2_improveUnimorph.py**:
 >Looks up all verbs from the UniMorph file successively on dictionary.com, and categorizes them into 'transitive' and 'intransitive' (Very slow. Better to use a dictionary API if available.).
 
@@ -39,41 +40,41 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **-h, --help**  
 
 **--unimorph0:**
-UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original.
+>UniMorph Inaccurate verb replacements with regard to transitivity. In place of --unimorph1, --internal, --supertag, or --original.
 
 **--unimorph1:**
-UniMorph Accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original.
+>UniMorph Accurate verb replacements with regard to transitivity. In place of --unimorph0, --internal, --supertag, or --original.
 
 **--internal:**
-For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original.
+>For internal word swapping. In place of --unimorph0, unimorph1, --supertag, or --original.
 
 **--supertag:**
-For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original.
+>For internal supertag word swapping. In place of --unimorph0, unimorph1, --internal, or --original.
 
 **--original:**
-Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag. 
+>Appends the training data by itself without changes. In place of --unimorph0, unimorph1, --internal, or --supertag. 
 
 **-i, --RRGinput:**
-(OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu".
+>(OPTIONAL) Filtered RRG file input. Default file: "rrgparbank/conllu/filtered_acc_en_conllu.conllu".
 
 **-o, --RRGoutput:**
-(OPTIONAL) Filtered RRG file output directory. Default directory: "rrgparbank/conllu".
+>(OPTIONAL) Filtered RRG file output directory. Default directory: "rrgparbank/conllu".
 
 **-t, --tag:**
-Word tags.
+>Word tags.
 
 **-ti, --trainInput:**
-(OPTIONAL) train.supertags file input. Default file: "experiments/rrgparbank-en/base/train.supertags".
+>(OPTIONAL) train.supertags file input. Default file: "experiments/rrgparbank-en/base/train.supertags".
 
 **-to, --trainOutput:**
-(OPTIONAL) train.supertags file output directory. If the directory is not specified, the default directory is used and filename changes to "new_train.supertags".
+>(OPTIONAL) train.supertags file output directory. If the directory is not specified, the default directory is used and filename changes to "new_train.supertags".
 
 **-s, --extensionSize:**
-Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1).
+>Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1).
 
 
 ### Available tags for replacement task (not for --supertag)
-**nS:**  Noun Singular
+>**nS:**  Noun Singular
 **nP:**  Noun Plural
 
 **aPoss:**  Adjective Possessive
