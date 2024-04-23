@@ -73,7 +73,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 >Extension size of the resulting training file. Must be >= 2. "2" doubles the size (sentences) of the base training file, thus does 1 run through the file (-s input-1).
 
 
-### Available tags for replacement task (not for --supertag)
+### Available tags (--tag) for replacement task (not for --supertag)
 **nS:**  Noun Singular\
 **nP:**  Noun Plural
 
@@ -101,6 +101,10 @@ augment.py [-h] [--unimorph0] [--unimorph1] [--internal] [--supertag] [--origina
 [-i RRGINPUT] [-o RRGOUTPUT] [-t TAG] [-ti TRAININPUT] [-to TRAINOUTPUT] -s EXTENSIONSIZE
 
 **Example 1:**  
+```
+python augment.py --unimorph0 --tag all --extensionSize 2
+```
+=
 ```
 python augment.py --unimorph0 -t all -s 2
 ```
