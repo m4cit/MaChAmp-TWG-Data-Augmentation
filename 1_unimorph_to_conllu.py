@@ -1,4 +1,4 @@
-# /////////////// Translate the original Unimorph file into the language of the conllu file
+# /////////////// Translates the original Unimorph file into the language of the conllu file
 
 import os
 import csv
