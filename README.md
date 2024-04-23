@@ -74,25 +74,25 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 ### Available tags for replacement task (not for --supertag)
 >**nS:**  Noun Singular
-**nP:**  Noun Plural<
-
-**aPoss:**  Adjective Possessive
-**aCmpr:**  Adjective Comparative
-**aSup:**  Adjective Superlative
-
-**vPst:**  Verb Past Tense
-**vPresPart:**  Verb Present Tense, Participle Form
-**vPstPart:**  Verb Past Tense, Participle Form
-
-**adv (for internal dataswap only):**  Adverb
-**advInt (for internal dataswap only):**  Adverb, Pronominal type: Interrogative
-**advSup (for internal dataswap only):**  Adverb Superlative
-**advCmpr (for internal dataswap only):**  Adverb Comparative
-
-**noun:**  All nouns
-**adj:**  All adjectives
-**verb:**  All verbs
-**all:**  All available tags
+>**nP:**  Noun Plural
+>
+>**aPoss:**  Adjective Possessive
+>**aCmpr:**  Adjective Comparative
+>**aSup:**  Adjective Superlative
+>
+>**vPst:**  Verb Past Tense
+>**vPresPart:**  Verb Present Tense, Participle Form
+>**vPstPart:**  Verb Past Tense, Participle Form
+>
+>**adv (for internal dataswap only):**  Adverb
+>**advInt (for internal dataswap only):**  Adverb, Pronominal type: Interrogative
+>**advSup (for internal dataswap only):**  Adverb Superlative
+>**advCmpr (for internal dataswap only):**  Adverb Comparative
+>
+>**noun:**  All nouns
+>**adj:**  All adjectives
+>**verb:**  All verbs
+>**all:**  All available tags
 
 
 ## Usage
