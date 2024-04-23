@@ -1,4 +1,4 @@
-# /////////////// Filters out all unused words from the training file in the RRG conllu file
+# /////////////// Filters out all unused words / lines in the RRG CoNLLU file
 
 import csv
 import os
