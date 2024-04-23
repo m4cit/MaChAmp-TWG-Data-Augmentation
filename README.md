@@ -4,7 +4,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 ## Scripts
 **1_unimorph_to_conllu.py**:
-Translates the original UniMorph file into the language / format of the CoNLLU file.
+>Translates the original UniMorph file into the language / format of the CoNLLU file.
 
 
 **2_improveUnimorph.py**:
