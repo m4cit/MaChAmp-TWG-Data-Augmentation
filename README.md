@@ -6,8 +6,6 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 **1_unimorph_to_conllu.py**:
 >Translates the original UniMorph file into the language / format of the CoNLLU file.
 
-
-
 **2_improveUnimorph.py**:
 >Looks up all verbs from the UniMorph file successively on dictionary.com, and categorizes them into 'transitive' and 'intransitive' (Very slow. Better to use a dictionary API if available.).
 
@@ -76,7 +74,7 @@ Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thes
 
 ### Available tags for replacement task (not for --supertag)
 >**nS:**  Noun Singular
-**nP:**  Noun Plural
+**nP:**  Noun Plural<
 
 **aPoss:**  Adjective Possessive
 **aCmpr:**  Adjective Comparative
