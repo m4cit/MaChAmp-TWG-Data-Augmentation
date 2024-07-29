@@ -117,12 +117,12 @@ or
 
 
 # Sources
-Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. [RRGparbank: A Parallel Role and Reference Grammar Treebank. In _Proceedings of the Thirteenth Language Resources and Evaluation Conference_, pages 4833–4841, Marseille, France. European Language Resources Association](https://aclanthology.org/2022.lrec-1.517/).  
+Tatiana Bladier, Kilian Evang, Valeria Generalova, Zahra Ghane, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Osswald, and Simon Petitjean. 2022. [RRGparbank: A Parallel Role and Reference Grammar Treebank](https://aclanthology.org/2022.lrec-1.517/). In _Proceedings of the Thirteenth Language Resources and Evaluation Conference_, pages 4833–4841, Marseille, France. European Language Resources Association.  
 
-Kilian Evang, Tatiana Bladier, Laura Kallmeyer, and Simon Petitjean. 2021. [Bootstrapping Role and Reference Grammar Treebanks via Universal Dependencies. In _Proceedings of the Fifth Workshop on Universal Dependencies (UDW, SyntaxFest 2021)_, pages 30–48, Sofia, Bulgaria. Association for Computational Linguistics](https://aclanthology.org/2021.udw-1.3/).  
+Kilian Evang, Tatiana Bladier, Laura Kallmeyer, and Simon Petitjean. 2021. [Bootstrapping Role and Reference Grammar Treebanks via Universal Dependencies](https://aclanthology.org/2021.udw-1.3/). In _Proceedings of the Fifth Workshop on Universal Dependencies (UDW, SyntaxFest 2021)_, pages 30–48, Sofia, Bulgaria. Association for Computational Linguistics.  
 
-Tatiana Bladier, Jakub Waszczuk, and Laura Kallmeyer. 2020. [Statistical Parsing of Tree Wrapping Grammars. In _Proceedings of the 28th International Conference on Computational Linguistics_, pages 6759–6766, Barcelona, Spain (Online). International Committee on Computational Linguistics](https://aclanthology.org/2020.coling-main.595/).  
+Tatiana Bladier, Jakub Waszczuk, and Laura Kallmeyer. 2020. [Statistical Parsing of Tree Wrapping Grammars](https://aclanthology.org/2020.coling-main.595/). In _Proceedings of the 28th International Conference on Computational Linguistics_, pages 6759–6766, Barcelona, Spain (Online). International Committee on Computational Linguistics.  
 
-Kallmeyer, L., Osswald, R., Van Valin, R.D. 2013. [Tree Wrapping for Role and Reference Grammar. In: Morrill, G., Nederhof, MJ. (eds) Formal Grammar. FG FG 2013 2012. Lecture Notes in Computer Science, vol 8036. Springer, Berlin, Heidelberg](https://link.springer.com/chapter/10.1007/978-3-642-39998-5_11).  
+Kallmeyer, L., Osswald, R., Van Valin, R.D. 2013. [Tree Wrapping for Role and Reference Grammar](https://link.springer.com/chapter/10.1007/978-3-642-39998-5_11). In: Morrill, G., Nederhof, MJ. (eds) Formal Grammar. FG FG 2013 2012. Lecture Notes in Computer Science, vol 8036. Springer, Berlin, Heidelberg.  
 
 [UniMorph](https://unimorph.github.io/)
