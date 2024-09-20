@@ -1,3 +1,27 @@
+# Abstract of my Thesis
+The future seems to be heavily focused on deep learning, and the field of computational linguistics plays a
+crucial role in developing capable parsing systems and analysing natural languages, which constantly evolve
+and change. One of the challenges with NLP (Natural Language Processing) is the amount of data needed for
+training. This is where data augmentation comes in. Expanding training data artificially can theoretically
+improve parsing models, and eliminate the need to source entirely new data.<br/><br/>
+This thesis investigates different methods of data augmentation for trainable TWG (Tree-Wrapping-
+Grammar) parsers and evaluates their validity as a means to improve parsers. The parser that was used is
+MaChAmp-TWG, a parser similar to Bladier et al. [(2022)](https://aclanthology.org/2022.lrec-1.517/) from the TreeGraSP [(Evang et al., 2021)](https://aclanthology.org/2021.udw-1.3/) project,
+with RRGparbank gold data in English [(Bladier et al., 2022)](https://aclanthology.org/2022.lrec-1.517/).<br/>
+The methods used are mainly based on random word replacements, and the idea is to expand the training
+dataset to see if syntactic validity is enough to obtain a larger training dataset and yield higher parsing
+accuracy.<br/><br/>
+The conclusion of this thesis is that all the presented methods produced parsing models with an increased F-
+score over the base model, the best performing model being a combination of both augmentation types
+(unchanged and nonsense sentences). The results suggest that semantic information plays a somewhat
+important role in parsing, and that the omission of semantics yields worse performance when compared to
+the models without nonsense sentence augmentations. However, the models with nonsense sentence
+augmentations still scored higher than the base model of MaChAmp-TWG.<br/>
+Data augmentation for parsers seems to be a challenging way to improve performance. Although the tested
+methods / implementations delivered higher F-scores across the board without any fine-tuning or with just a
+little change to the training configuration, they did not contain flawless data. All the methods had inherent
+issues creating some invalid (augmented) data.
+
 # Scripts
 ## 1_unimorph_to_conllu.py
 Translates the original UniMorph file into the language / format of the CoNLLU file.
