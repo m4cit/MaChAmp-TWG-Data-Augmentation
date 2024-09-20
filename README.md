@@ -1,3 +1,6 @@
+# About
+Data Augmentation scripts for the parser MaChAmp-TWG as part of my bachelor thesis titled "Data Augmentation for TWG Parsing via Syntactically Well-formed Nonsense Sentences".
+
 # Abstract of my Thesis
 The future seems to be heavily focused on deep learning, and the field of computational linguistics plays a
 crucial role in developing capable parsing systems and analysing natural languages, which constantly evolve
